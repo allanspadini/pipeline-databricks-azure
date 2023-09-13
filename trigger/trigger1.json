@@ -14,10 +14,15 @@
 		"type": "ScheduleTrigger",
 		"typeProperties": {
 			"recurrence": {
-				"frequency": "Minute",
-				"interval": 60,
+				"frequency": "Month",
+				"interval": 1,
 				"startTime": "2023-09-13T17:07:00",
-				"timeZone": "E. South America Standard Time"
+				"timeZone": "E. South America Standard Time",
+				"schedule": {
+					"monthDays": [
+						25
+					]
+				}
 			}
 		}
 	}
